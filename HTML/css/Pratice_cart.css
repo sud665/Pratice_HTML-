@@ -1,0 +1,98 @@
+body {
+    margin: 0px;
+}
+
+
+
+td, th {
+/*    border: 1px solid black;*/
+    
+}
+
+
+.cart-table td,.cart-table th {
+    padding: 15px;
+    border-bottom: 1px solid #c2d3de;
+}
+
+
+
+
+tabel {
+  border-collapse: collapse;
+/*
+  border-radius : 7px;
+  border-style : hidden;
+  box-shadow : 0 0 0 1px #666;
+*/
+}
+
+.cart-background {
+    width: 100%;
+    background-color: aquamarine;
+    padding: 30px;
+}
+
+.cart-table {
+    width: 100%;
+/*    특정사이즈 까지만 커진다.*/
+    max-width: 700px;
+    margin: auto;
+    background: white;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cell-long {
+/*    테이블 내 넓이는 최소폭은 이렇게 설정한다.*/
+    width: 700px;
+}
+
+/*이렇게 테이블을 선택할 수 있다.*/
+.cart-table th:nth-child(2){
+    width:  400px
+}
+.sell-btn {
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: aliceblue;
+    cursor: pointer;
+}
+/*pseudo-class 순서가 중효하다.*/
+.sell-btn:hover {
+  background-color: darkorchid;
+}
+
+.sell-btn:focus{
+    background-color: grey;
+}
+
+.sell-btn:active{
+    background-color: yellow;
+    border: 2px solid aqua;
+}
+
+
+
+
+.input-test {
+    font-size: 20px;
+}
+
+.input-test:focus{
+    border-bottom: 2px solid red;
+}
+
+.custom-link {
+    text-decoration: none;
+}
+.custom-link:link{
+    color: red;
+}
+
+.custom-link:visited{
+    color: blue;
+}

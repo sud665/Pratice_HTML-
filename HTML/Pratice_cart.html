@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/Pratice_cart.css">
+    <title>cart-html</title>
+</head>
+<body>
+    
+    <div class="cart-background">
+        <h3>Your Shopping Cart</h3>
+        <table class="cart-table">
+            <thead>
+              <tr>
+                  <th>Picture</th>
+                  <th>Item</th>
+                  <th>Ammout</th>
+                  <th>Price</th>
+                  <th>Total</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                  <td><img src="img/item1.png" width="50px"></td>
+                  <td>Converse</td>
+                  <td>3개</td>
+                  <td>100$</td>
+                  <td>300$</td>
+              </tr>
+<!--                셀병합 해보기-->
+              <tr>
+                  <td colspan="5" style="text-align: right">총 가격: 3000$</td>
+              </tr> 
+            </tbody>
+        </table>
+    
+        <button class="sell-btn">구매하기</button>
+        <input class="input-test">
+        <a href="#" class="custom-link">참고사이트</a>
+        
+    </div>
+
+    
+</body>
+</html>

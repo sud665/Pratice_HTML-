@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout_inline_block.css">
+    <title>layout_inline-block</title>
+</head>
+<body>    
+
+    <div class="container" style="font-size: 0px">
+      <div class="header"></div>
+<!--        display inline-block를 사용시 나란히 만들려면 공백을 없애자-->
+<!--        그래서 중간에 주석을 넣거나 , 글자크기를 0px로 한다.-->
+
+      <div class="left-menu"></div>
+      <div class="right-content">
+<!--         인라인 블록을 설정하면 박스안에 내용을 넣을때 이상해진다. 그래서 vertical-aline을 해줘야한다.-->
+          <p> 안녕하세요.</p>
+      </div>
+      <div class="footer"></div>
+    </div>
+
+
+</body>
+</html>

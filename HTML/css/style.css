@@ -1,0 +1,42 @@
+/*class 명으로 넣기*/
+.profile {
+    width: 200px; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.title {
+  color: red; 
+  font-weight: 700;
+  text-align: center;
+}
+
+
+/*태그명을 넣으면 그 태그 전부 적용된다.*/
+
+h3 {
+    text-align: center;
+}
+
+/*주의사항으로 tag < class < id  순서대로 우선순위가 있다. */
+.box {
+    width: 230px;
+    background-color: cadetblue;
+    margin: 10px;
+    padding: 40px;
+    border: 4px solid aqua;
+    border-radius: 20px;
+/*    박스에서는 디스플레이 블록을 기본으로 가지고 있다.*/
+/*    display: block;*/
+    margin-left: auto;
+    margin-right: auto;
+/*    폰트사이즈는 부모태그에 넣어주면 자식에게 상속한다.inherit이라고 한다.
+    사이즈나, 칼라, font-famly도 가능하다.*/
+    font-size: 80%; 
+    color: white;
+    box-shadow: 5px 5px 5px 5px grey;
+}
+/* 쉐도우 효과 주기    */
+    

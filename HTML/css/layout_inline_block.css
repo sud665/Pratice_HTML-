@@ -1,0 +1,37 @@
+
+/*inline-block 처리 하기*/
+.container {
+    width: 800px
+}
+
+.header {
+/*    부모 넓이에 비례해서 만들어짐*/
+    width: 100%;
+    height: 50px;
+    background: aqua;
+}
+
+
+/*inline-block 처리 하기*/
+.left-menu {
+    width: 30%;
+    height: 400px;
+    background: cornflowerblue;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.right-content {
+    width: 70%;
+    height: 400px;
+    background: coral;
+    display: inline-block;
+}
+
+.footer {
+    width: 100%;
+    height: 50px;
+    background: grey;
+    
+}

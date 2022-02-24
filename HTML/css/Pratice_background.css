@@ -1,0 +1,76 @@
+
+/*디브박스를 폭넓이 설정을 좀 쉽게 하기 위해*/
+div {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+/*브라우져간에 오류를 방지하는 CSS normalize를 미리 설정해놓으면 문제가 발생하지 않는다.*/
+
+
+/*배경화면 넣는방법*/
+/*배경 이미지가 반복될땐 repect 넣는다.*/
+/*배경 이미지 크기를 cover, contain, 등등 있다.*/
+.main-background {
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/4.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+/*    채도, 명암 적용가능하다. 사진에만 사용하는 것도 */
+/*    filter: brightness(70%);*/
+    padding:1px;
+    position: relative;
+}
+
+/*margin collapse 현상*/
+/*마진값이 부모에도 영향이 미친다. 둘이 겹쳐있기 때문에 그래서 */
+/*둘을 padding으로 살짝 떨어트려야 한다*/
+/*위에 박스에 패딩값을 1px 정도 주자*/
+.main-title {
+    color: white;
+    font-size: 40px;
+    margin-top: 150px;
+    margin-left: 40px;
+    background-color:transparent;
+    text-align: center;
+    
+}
+
+/*포지션 속성 주기*/
+.main-button {
+   padding: 15px;
+   font-size: 20px;
+   background: white;
+   border: none;
+   border-radius: 5px;
+/*    좌표설정하기 위한 기준점 설정*/
+   position: absolute;
+   left : 0;
+   right: 0;
+   margin: auto;
+   width: 100px
+/*       화면에 고정하기위해선 position : fixed*/
+/*       부모중에 포지션 relative을 가지고 있는것을 기준으로 한다 position : absolute**/
+}
+
+.main-content {
+    color: white;
+    text-align: center;
+}
+
+
+/*요소들이 겹치게 되면 서로 밀고 난리가 난다. 그래서 z-index로 우선순위를 주면 차례대로 나타난다. 숫자가 낮으면 바닥으로 간다.*/
+.explain-box {
+    width: 700px;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    background: #eee;
+    position: relative;
+    top: -40px;
+}

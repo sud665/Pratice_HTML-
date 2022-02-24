@@ -1,0 +1,56 @@
+
+.container {
+    width: 800px;
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.left-content {
+    width: 80%;
+    height: 100%;
+    background: aqua;
+    float: left;
+}
+
+.right-img {
+    width: 20%;
+    height: 100%;
+    background: blue;
+    float: left;
+}
+
+.content-title {
+    width: 100%;
+    height: 30%;
+    float: left;
+    margin-left: 10px
+}
+
+.content-detail {
+    width: 100%;
+    height: 70%;
+    background: blue;
+    float: left;
+}
+
+.left-title {
+    float: left;
+}
+
+/*셀렉터 사용법 클레스이름 띄어쓰기 하고 태그명 넣기*/
+/*navbar>li 바로 직계자식만 선택하고 싶을땐*/
+.navbar li{
+    display: inline-block;
+    width: 60px;
+    background: #eee;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.navbar a{
+    font-size: 16px;
+    text-decoration: none;
+}
